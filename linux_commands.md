@@ -62,3 +62,8 @@ can also be used in conjunction with pipe operator `|` eg `less index.md | grep 
 `env USER=flavio node app.js`
 The env command can be used to pass environment variables without setting them on the outer environment (the current shell).
 
+In `python` we use
+
+`import os`
+
+`os.environ` to import env
