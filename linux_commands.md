@@ -66,4 +66,7 @@ In `python` we use
 
 `import os`
 
-`os.environ` to import env
+`os.environ` to import system environmental variables.
+We may also have a .env file. We can use python's dotenv package to import that file and put the variables in the system's environmental variables.
+Finally we can use the linux `env` command to pass an environmental variable to an application
+`env KERR=TJ python3` will pass the env variable KERR, value TJ to python3
